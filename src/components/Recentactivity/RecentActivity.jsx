@@ -29,7 +29,7 @@ export default function RecentActivity() {
       </div>
       <div className={styles.section_two_info}>
         <div className={styles.star_road}>
-          <img src="./src/components/RecentActivity/icon/star.png" alt="star_road" title="Star Road" />
+          <img src="./src/components/RecentActivity/icon/star.jpg" alt="star_road" title="Star Road" />
         </div>
         <div className={styles.description}>
           <div className={styles.informatio_for_sign_in}>
