@@ -1,0 +1,13 @@
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+    border-color: white !important;
+}
+
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-width: 2px;
+    border-color: #22D1CC !important;
+}
+
+.css-2ehmn7-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline{
+    border-width: 2px;
+    border-color: #22D1CC !important;
+}

@@ -1,0 +1,181 @@
+.favorite_genres_popup_main {
+    width: 999px;
+    height: 578px;
+    position: relative;
+    z-index: 10;
+}
+
+.favorite_genres_popup_title_div {
+    width: 999px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.favorite_genres_popup_question_select_div {
+    width: 297px;
+    height: 86px;
+    margin-top: 20px;
+    margin-left: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.favorite_genres_popup_question_div {
+    width: 297px;
+    height: 60px;
+}
+
+.favorite_genres_popup_select_div {
+    width: 212px;
+    height: 6px;
+    display: flex;
+}
+
+.active_div_popup {
+    width: 100px;
+    height: 6px;
+    background-color: var(--primary-color);
+    border-radius: 15px;
+}
+
+.not_active_popup {
+    width: 50px;
+    height: 6px;
+    margin-left: 4px;
+    border-radius: 15px;
+    background-color: #22d1cb3e;
+}
+
+.favorite_genres_popup_genres_div {
+    width: 929px;
+    height: 315px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px 0px 20px 35px;
+}
+
+.favorite_genres_popup_genres_div > button {
+    width: 200px;
+    height: 57px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50px; 
+    margin-left: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.div_skip_next {
+    width: 928px;
+    height: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 35px;
+}
+
+.div_skip {
+    width: 38px;
+    height: 27px;
+}
+
+.div_skip > a {
+    color: white;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+.div_skip > a:hover {
+    color: var(--primary-color);
+}
+
+.div_next {
+    width: 50px;
+    height: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.div_next > .nextt {
+    color: whit;
+    transition: 0.3s;
+}
+
+.icon_arrow_right {
+    width: 5px;
+    height: 9px;
+    path {
+        fill: #808080;
+        transition: 0.3s;
+    }
+}
+
+.nextt {
+    color: #808080;
+    transition: color 0.3s;
+}
+
+.div_next > .isActiveGenres {
+    color: white;
+    transition: 0.3s;
+}
+
+.isActiveIcon {
+    width: 5px;
+    height: 9px;
+    cursor: pointer;
+    path {
+        fill: white;
+        transition: 0.3s;
+    }
+}
+
+.div_next:hover {
+    .isActiveGenres {
+        color: var(--primary-color);
+        cursor: pointer;
+    }
+    .isActiveIcon {
+        cursor: pointer;
+        path {
+            fill: var(--primary-color);
+        }
+    }
+}
+
+.div_next:active {
+    .isActiveGenres {
+        color: rgb(18, 99, 143);
+        cursor: pointer;
+    }
+    .isActiveIcon {
+        cursor: pointer;
+        path {
+            fill: rgb(18, 99, 143);
+        }
+    }
+}
+
+.favorite_genres_popup_genres_div > button {
+    font-size: 18px;
+    width: 200px;
+    height: 56px;
+    transition: 0.7s;
+}
+
+.favorite_genres_popup_genres_div > button:hover {
+    background-color: var(--primary-color);
+    color: var(--background);
+    border: none;
+}
+
+.isActiveButton {
+    border: none !important;
+    color: var(--background) !important;
+    background-color: var(--primary-color);
+}
